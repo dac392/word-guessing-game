@@ -3,7 +3,7 @@ const phrase_ul = document.getElementById('phrase');
 const overlay = document.getElementById('overlay');
 const scoreboard = document.querySelector('ol').children;
 
-const phrases = [
+let phrases = [
     "JavaScript",
     "Project",
     "Treehouse",
@@ -128,5 +128,6 @@ function reset_gamestate(){
 }
 
 /* _______main______*/
+phrases = phrases.map(phrase=>phrase.toLowerCase());
 overlay.addEventListener('click', remove_overlay);
 keyboard.addEventListener("click", keyboard_press);
