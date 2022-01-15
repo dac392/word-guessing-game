@@ -4,11 +4,11 @@ const overlay = document.getElementById('overlay');
 const scoreboard = document.querySelector('ol').children;
 
 const phrases = [
-    "words and other words",
-    "jonson and the other jonson",
-    "more words",
-    "fourth phrase",
-    "and the last one"
+    "JavaScript",
+    "Project",
+    "Treehouse",
+    "Web Development",
+    "Coding is fun"
 ];
 
 let wrong_answers = 0;
